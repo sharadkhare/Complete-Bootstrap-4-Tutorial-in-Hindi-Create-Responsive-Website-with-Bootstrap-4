@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<h1>bootstrap 4 grid system: it is built with flexbox and allows upto 12 columns across the page.</h1>
+<p>grid classes: .col(576px), .col-sm(>=576px), .col=md(768px), .col-lg(992px), .col-xl(1200px)</p>
+
+<div class="container-fluid">
+    <h1>Three equal width column</h1>
+    <p>note: please try to add a mew div with the class="col" inside the row class. this will create 4 equal width column</p>
+    <div class="row">
+        <div class="col" style="background-color:chocolate;">.col</div>
+        <div class="col" style="background-color:red;">.col</div>
+        <div class="col" style="background-color:green;">.col</div>
+        <div class="col" style="background-color:teal;">.col</div>
+    </div>
+</div>
+<div class="container-fluid">
+<h1>responsive Columns</h1>
+<p>Resize the browser window to see the effect</p>
+<p>it is on limit to 576px</p>
+<div class="col-sm-3" style="background-color:green;">.Col-sm-3</div>
+<div class="col-sm-3" style="background-color:red;">.Col-sm-3</div>
+<div class="col-sm-3" style="background-color:blue;">.Col-sm-3</div>
+<div class="col-sm-3" style="background-color:black;">.Col-sm-3</div>
+</div>
+<h1>two unequal Responsive columns</h1>
+<p>like how to get 2 different width starting at tablet , desktop or mobile</p>
+<div class="container-fluid">
+    <h1>2 unequal responsive columns</h1>
+    <div class="row">
+        <div class="col-sm-4" style="background-color:lightseagreen;">.Col-sm-4</div>
+        <div class="col-sm-8" style="background-color:lightgreen;">.Col-sm-8</div>
+
+    </div>
+</div>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+</body>
+</html>
